@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+}
+
+h1{
+    color: white;
+    border: 2px gray solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.buttons{
+    margin: 20px 0px;
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    justify-content: space-around;
+}
+
+button{
+    background-color: rgb(227, 31, 31);
+    border: 2px white solid;
+    color: white;
+    padding: 10px;
+    font-size: large;
+    font-weight:bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+p{
+    color: white;
+    background-color: green;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
