@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    padding: 20px;
+    background-color: #dadada;
+}
+
+#root{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top img{
+    width: 50px;
+    height: 50px;
+    border: white 6px solid;
+    box-shadow: 0px 0px 0px 1px rgba(128, 128, 128, 0.301);
+    border-radius: 50px;
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.top button{
+    width: 70px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: grey;
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0px 0px 0px 1px rgba(128, 128, 128, 0.128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px
+}
+
+.top button #bookmark{
+    width: 17px;
+    height: 17px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-top: #dadada45 2px solid;
+    padding-top: 15px;
+}
+
+.bottom div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.bottom div h2{
+    font-size: 1.2rem;
+    color: #111;
+    font-weight: 550;
+}
+
+.bottom div p{
+    font-size: 60%;
+    color: rgba(128, 128, 128, 0.683);
+    font-weight: 600;
+}
+
+.bottom button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #111;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.centre{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    gap: 5px;
+    /* background-color: tomato; */
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.centre h2{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.centre h2 span{
+    font-size: 60%;
+    color: rgba(128, 128, 128, 0.683);
+}
+
+.centre h1{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.centre div{
+    display: flex;
+    gap: 10px;
+    width: 60%;
+    height: 50px;
+}
+
+.centre div #time h3, .centre div #experience h3{
+    font-size: 60%;
+    color: black;
+    background-color: rgba(188, 183, 183, 0.539);
+    font-weight: bold;
+    border: #dadada 1px solid;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-top: 3px;
+}

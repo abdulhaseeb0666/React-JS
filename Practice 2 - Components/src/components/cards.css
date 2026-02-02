@@ -1,0 +1,31 @@
+
+.card{
+    width: 97%;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    background-color: #3284cd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ae1d52;
+}
+
+#title{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+#description{
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}

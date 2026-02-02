@@ -1,0 +1,45 @@
+nav{
+    background: linear-gradient(to right, #3284cd, #ae1d52);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 3fr;
+    align-items: center;
+    box-shadow: 0px 3px 5px rgba(169, 126, 126, 0.527);
+}
+
+#nav-title{
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    grid-column: 1/2;
+    place-self: center;
+    font-size: 40px;
+    color: rgb(9, 59, 224);
+}
+
+.nav-items{
+    font-size: x-large;
+    grid-column: 2/5;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+#vite-logo{
+    place-self: center;
+    grid-column: 5/6;
+    width: 50px;
+    height: 50px;
+    align-items: end;
+}
+
+#home,#about,#contact{
+    text-shadow: #43146d 1px 1px 5px;
+    text-decoration: none;
+    color: #400077;
+    font-weight: bold;
+    margin-top: 13px;
+}

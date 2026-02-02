@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+  padding: 10px;
+  background-color: #111;
+}
+
+input{
+  background-color: white;
+  border: none;
+  border: 2px red solid;
+  border-radius: 5px;
+  height: 30px;
+  margin: 10px;
+  font-size: medium;
+  padding: 10px;
+}
+
+button{
+  height: 30px;
+  width: full;
+  padding: 0px 10px;
+  font-weight: 600;
+  border: 2px white solid;
+  border-radius: 4px;
+  background-color: red;
+  color: aliceblue;
+}
+
+.box{
+  border: 2px white solid;
+  border-radius: 10px;
+  height: 50vh;
+  width: 100%;
+  background-color: red;
+}

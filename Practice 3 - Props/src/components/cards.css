@@ -1,0 +1,30 @@
+.card{
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    background-color: #3284cd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ae1d52;
+}
+
+#name{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+#age, #profession{
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+    font-size: 1.5rem;
+    color: #eee;
+}
+
+#description{
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+    font-size: 1.2rem;
+    color: #ccc;
+}

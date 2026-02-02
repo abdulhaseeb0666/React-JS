@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111;
+    color: #fff;
+}
+
+#title{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.heading{
+    text-align: left;
+    color: #fff;
+}
