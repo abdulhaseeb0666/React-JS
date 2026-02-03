@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+form{
+    background-color: rgb(25, 23, 23);
+    width: 300px;
+    height: fit-content;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    transform: translate(-50%);
+}
+
+p{
+    color: white;
+    font-size: small;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+input,
+textarea{
+    background-color: rgb(56, 56, 56); 
+    border: none;  
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: white;
+    width: 100%;
+}
+
+#username,
+#photoURL,
+#password,
+#bio,
+#description{
+    width: 100%;
+}
+
+::placeholder{
+    color: white;
+    text-align: left;
+    vertical-align: top;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+#login{
+    padding : 3px;
+    margin-top: 10px;
+    margin-left : 100px
+
+}
+
+/* Rendering User Cards */
+.user-grid {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px;
+  position: absolute;
+  top: 370px;
+}
+
+img{
+    border: 3px solid rgb(29, 99, 220);
+    height : 100px;
+    width: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.user-card {
+  /* padding: 15px; */
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #3c5b9a, #7f296a);
+  width: 210px;
+  height: 210px;
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  justify-self: center;
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border: 2px solid whitesmoke;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: clip;
+}
+
+.user-card button {
+  margin-top: 10px;
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#user-name,
+#user-bio,
+#user-desc {
+    margin: 5px 0;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(52, 119, 131, 0.5);
+}
