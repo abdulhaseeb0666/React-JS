@@ -37,7 +37,7 @@ const App = () => {
   if(userData.length > 0){
     printData = userData.map(function(elem, idx){
       return(
-        <div key={idx} className='bg-white border-1 h-fit w-fit rounded-2xl box-border'>
+        <div key={idx} className='bg-white border h-fit w-fit rounded-2xl box-border'>
           <a href={elem.url} target="blank">
             <img src={elem.download_url} alt="Image" className='h-50 rounded-2xl w-50 object-cover cursor-pointer' />
           </a>
