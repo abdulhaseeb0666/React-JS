@@ -9,8 +9,7 @@ const Products = () => {
         <Link to='/products/women'>Women</Link>
         <Link to='/products/kids'>Kids</Link>
       </div>
-      {/* <h1 className='text-white font-bold text-8xl absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] '>Products</h1> */}
-
+      
       <Outlet />
     </div>
   )
