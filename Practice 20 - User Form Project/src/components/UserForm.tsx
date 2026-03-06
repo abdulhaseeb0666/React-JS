@@ -16,7 +16,7 @@ const UserForm = (params : {users: User[]}) => {
         users.map((user , idx) => {
           return (
             <div key={idx} className="flex flex-col gap-2 justify-center items-center p-5 rounded-xl bg-blue-900 border-2 border-white w-50 h-50 ">
-              <img src={user.image} alt="" className="w-20 h-20 rounded-full object-cover" />
+              <img src={user.image} alt="" className="w-20 h-20 rounded-full object-cover border border-purple-500" />
               <p>Username: {user.name}</p>
               <p>Email: {user.email}</p>
             </div>

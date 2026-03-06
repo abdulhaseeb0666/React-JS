@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { ThemeDataContext } from '../contexts/ThemeContext'
 
-const Button = (props) => {
+const Button = () => {
 
   const data = useContext(ThemeDataContext)
   const settheme = data[1]
